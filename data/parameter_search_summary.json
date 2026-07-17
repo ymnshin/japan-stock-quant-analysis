@@ -1,0 +1,59 @@
+{
+  "selection_rule": "Maximize the worst mean monthly excess return across three chronological development folds; break ties using the full development-period mean. Holdout returns are not used for selection.",
+  "grid": {
+    "per_max": [
+      4,
+      20,
+      1
+    ],
+    "roe_min": [
+      0.05,
+      0.3,
+      0.025
+    ],
+    "minimum_median_holdings_per_development_fold": 5
+  },
+  "development_period": [
+    "2022-04-30",
+    "2025-02-28"
+  ],
+  "holdout_period": [
+    "2025-03-31",
+    "2026-05-31"
+  ],
+  "selected_threshold": {
+    "per_max": 11.0,
+    "roe_min": 0.05,
+    "development_mean": 0.006367867944105596,
+    "minimum_fold_mean": 0.006012899171271546,
+    "holdout_mean": -0.022385447674031677,
+    "holdout_median": -0.011017347306503241,
+    "holdout_positive_rate": 0.3333333333333333,
+    "holdout_median_holdings": 70.0,
+    "holdout_mean_bootstrap_95pct_ci": [
+      -0.06093215192583981,
+      0.014932975182283413
+    ]
+  },
+  "baseline_threshold": {
+    "per_max": 10.0,
+    "roe_min": 0.1,
+    "development_mean": 0.005586724444107464,
+    "minimum_fold_mean": 0.004746752870905243,
+    "holdout_mean": -0.026515835566961733,
+    "holdout_median": -0.0233695412301695,
+    "holdout_positive_rate": 0.3333333333333333,
+    "holdout_median_holdings": 34.0,
+    "holdout_mean_bootstrap_95pct_ci": [
+      -0.06776622011597407,
+      0.013253647427521324
+    ]
+  },
+  "best_with_roe_at_least_10pct": {
+    "per_max": 8.0,
+    "roe_min": 0.1,
+    "development_mean": 0.01073867486484627,
+    "holdout_mean": -0.02606965474844134
+  },
+  "conclusion": "No robust positive out-of-sample edge was found in this PER/ROE threshold grid. The development-period winner was negative in the untouched holdout period."
+}

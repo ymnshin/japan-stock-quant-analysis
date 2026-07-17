@@ -1,0 +1,28 @@
+{
+  "created_on": "2026-07-15",
+  "config": {
+    "start": "2022-04-01",
+    "end": "2026-07-01",
+    "per_max": 10.0,
+    "roe_min": 0.1,
+    "reporting_lag_days": 0,
+    "workers": 6,
+    "refresh": false,
+    "limit": null
+  },
+  "universe_file": "topix500_20210430.csv",
+  "requested_tickers": 496,
+  "tickers_with_prices": 468,
+  "tickers_with_fundamentals": 468,
+  "fundamental_download_failures": 28,
+  "selected_observations": 1719,
+  "selected_unique_tickers": 127,
+  "selected_signal_months": 50,
+  "mean_excess_return": -0.0029579460732235136,
+  "median_excess_return": -0.0021493179674392238,
+  "standard_deviation": 0.0886395731419252,
+  "positive_rate": 0.48807446189645143,
+  "minimum_excess_return": -0.3868964069597808,
+  "maximum_excess_return": 0.5916403029931636,
+  "method_note": "Annual fiscal period-end is treated as the data availability date plus reporting_lag_days. One-month adjusted-close return minus Nikkei 225 one-month adjusted-close return."
+}
