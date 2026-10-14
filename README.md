@@ -47,3 +47,10 @@ python src/search_value_quality_parameters.py
 ## 参照元
 
 - blog_UKI, [「成功する投資：トレーディングのサイエンス」](https://qiita.com/blog_UKI/items/f782fb86747e0bae89a9), Qiita, 2020年11月12日更新
+
+
+## Market Journal
+
+個人勉強用の市場観察ログを `market-journal/` に記録しています。日本株、米国株、為替、金利、原油、半導体・AIなどについて、Fact / Interpretation / Scenario / Falsification を分けて日次で残します。
+
+- [Market Journal](market-journal/README.md)
